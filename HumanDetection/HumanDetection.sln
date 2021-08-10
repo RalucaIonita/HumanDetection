@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumanDetectionML.Model", "H
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumanDetectionML.ConsoleApp", "HumanDetectionML.ConsoleApp\HumanDetectionML.ConsoleApp.csproj", "{4C91866E-C041-44B8-AB7F-7C2BE4E1EB96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuralNetwork_1", "ConvolutionalNetwork_v1\NeuralNetwork_1.csproj", "{5A368BC6-D93A-482E-8834-A57E4C11B19A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{4C91866E-C041-44B8-AB7F-7C2BE4E1EB96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C91866E-C041-44B8-AB7F-7C2BE4E1EB96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C91866E-C041-44B8-AB7F-7C2BE4E1EB96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A368BC6-D93A-482E-8834-A57E4C11B19A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A368BC6-D93A-482E-8834-A57E4C11B19A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A368BC6-D93A-482E-8834-A57E4C11B19A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A368BC6-D93A-482E-8834-A57E4C11B19A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
