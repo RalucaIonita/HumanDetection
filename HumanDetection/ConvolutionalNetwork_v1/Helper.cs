@@ -26,7 +26,8 @@ namespace NeuralNetwork_1
                 var newEntry = new ModelInput
                 {
                     Content = File.ReadAllBytes(human),
-                    Label = true,
+                    Label = 1,
+                    ImagePath = human
                 };
                 entries.Add(newEntry);
             }
@@ -36,7 +37,7 @@ namespace NeuralNetwork_1
                 var newEntry = new ModelInput
                 {
                     Content = File.ReadAllBytes(notHuman),
-                    Label = false,
+                    Label = 0,
                 };
                 entries.Add(newEntry);
             }
