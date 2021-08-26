@@ -17,7 +17,7 @@ namespace HumanDetection.Controllers
         [HttpPost("recognize-human")]
         public IActionResult RecognizeHuman(IFormFile file)
         {
-
+            return Ok();
         }
     }
 }
