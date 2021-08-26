@@ -7,11 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumanDetection", "HumanDete
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Services.csproj", "{6D2096B5-4729-486A-948D-3460B13CA671}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumanDetectionML.Model", "HumanDetectionML.Model\HumanDetectionML.Model.csproj", "{58705081-3D7F-41C4-A784-30A43187B7BA}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumanDetectionML.ConsoleApp", "HumanDetectionML.ConsoleApp\HumanDetectionML.ConsoleApp.csproj", "{4C91866E-C041-44B8-AB7F-7C2BE4E1EB96}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuralNetwork_1", "ConvolutionalNetwork_v1\NeuralNetwork_1.csproj", "{5A368BC6-D93A-482E-8834-A57E4C11B19A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumanDetectionModel", "HumanDetectionModel\HumanDetectionModel.csproj", "{98A00280-CBD7-464D-BFB1-B1F1097104B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,18 +23,10 @@ Global
 		{6D2096B5-4729-486A-948D-3460B13CA671}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D2096B5-4729-486A-948D-3460B13CA671}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D2096B5-4729-486A-948D-3460B13CA671}.Release|Any CPU.Build.0 = Release|Any CPU
-		{58705081-3D7F-41C4-A784-30A43187B7BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{58705081-3D7F-41C4-A784-30A43187B7BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{58705081-3D7F-41C4-A784-30A43187B7BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{58705081-3D7F-41C4-A784-30A43187B7BA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4C91866E-C041-44B8-AB7F-7C2BE4E1EB96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4C91866E-C041-44B8-AB7F-7C2BE4E1EB96}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4C91866E-C041-44B8-AB7F-7C2BE4E1EB96}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4C91866E-C041-44B8-AB7F-7C2BE4E1EB96}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5A368BC6-D93A-482E-8834-A57E4C11B19A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5A368BC6-D93A-482E-8834-A57E4C11B19A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5A368BC6-D93A-482E-8834-A57E4C11B19A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5A368BC6-D93A-482E-8834-A57E4C11B19A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98A00280-CBD7-464D-BFB1-B1F1097104B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98A00280-CBD7-464D-BFB1-B1F1097104B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98A00280-CBD7-464D-BFB1-B1F1097104B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98A00280-CBD7-464D-BFB1-B1F1097104B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
