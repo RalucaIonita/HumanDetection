@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\HumanDetectionML.Model\HumanDetectionML.Model.csproj" />
   </ItemGroup>
 
 </Project>
